@@ -5,7 +5,7 @@ require $_composer_autoload_path ?? __DIR__.'/vendor/autoload.php';
 
 $app = new Symfony\Component\Console\Application('Dusk Updater');
 
-$app->setVersion(Composer\InstalledVersions::getPrettyVersion('orchestra/dusk-updater'));
+$app->setVersion(Composer\InstalledVersions::getPrettyVersion('wpstarter/o-dusk-updater'));
 
 $app->add(new Orchestra\DuskUpdater\DetectCommand());
 $app->add(new Orchestra\DuskUpdater\UpdateCommand());
