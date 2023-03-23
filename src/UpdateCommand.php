@@ -38,7 +38,7 @@ class UpdateCommand extends Command
     /**
      * The ChromeDriver binary installation directory.
      */
-    protected ?string $directory;
+    protected $directory;
 
     /**
      * Configure the command options.
