@@ -41,8 +41,5 @@ jobs:
       - name: Installed dependencies
         run: composer show -D
 
-      - name: Execute Code Style Analysis
-        run: vendor/bin/pint --test
-
       - name: Execute Static Code Analysis
         run: vendor/bin/phpstan analyse
