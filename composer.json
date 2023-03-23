@@ -34,9 +34,7 @@
         "sort-packages": true
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "2.0-dev"
-        }
+
     },
     "minimum-stability": "stable"
 }
