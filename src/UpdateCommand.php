@@ -20,14 +20,14 @@ class UpdateCommand extends Command
     /**
      * URL to the ChromeDriver download.
      */
-    protected string $downloadUrl = 'https://chromedriver.storage.googleapis.com/%s/chromedriver_%s.zip';
+    protected $downloadUrl = 'https://chromedriver.storage.googleapis.com/%s/chromedriver_%s.zip';
 
     /**
      * Download slugs for the available operating systems.
      *
      * @var array<string, string>
      */
-    protected array $slugs = [
+    protected $slugs = [
         'linux' => 'linux64',
         'mac' => 'mac64',
         'mac-intel' => 'mac64',
